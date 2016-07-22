@@ -1,0 +1,4 @@
+.contener{
+    width: calc(100% - 20%);
+    margin: auto;
+}

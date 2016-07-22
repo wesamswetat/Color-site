@@ -1,0 +1,215 @@
+body{
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.contener{
+    width: calc(100% - 20%);
+    margin: auto;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+/* ######################  HEADER START   ######################## */
+
+header{
+    background-image: url("../img/img01.jpg");
+    overflow: hidden;
+}
+
+header div:first-child {
+    overflow: hidden;
+    padding-top: 50px;
+}
+
+header > div > p{
+    float: left;
+    margin: 0;
+    font-size: 3.5em;
+    text-transform: uppercase;
+}
+
+header > div > ul{
+    float: right;
+    padding-top: 40px;
+}
+
+header > div > ul > li{
+    list-style: none;
+    float: left;
+}
+
+header > div > ul > li > a{
+    padding: 15px 18px;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+}
+
+header > div > ul > li > a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+header > div > img {
+    display: block;
+    width: 100%;
+    margin:80px auto;
+    box-shadow: 0 22px 72px -17px; ;
+}
+
+/* ######################  description section START   ######################## */
+
+.des {
+    overflow: hidden;
+    margin-top: 15px;}
+
+.des div{
+    float: left;
+    width: 30%;
+    height: 400px;
+}
+
+.des div + div {margin-left: 5%;  }
+
+.des > div > p:first-child {
+    text-transform: uppercase;
+    font-size: 1.5em;
+
+}
+
+.des > div > p {
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.des > div > a {
+    padding: 15px 12px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 0.8em;
+}
+
+.des > div > img{
+    width: 100%;
+}
+
+/* ######################  space div START   ######################## */
+.space{
+    height: 3px;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 10px;
+}
+
+/* ######################  wellcom section START   ######################## */
+
+.welcome{
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.welcome > div{
+    float: left;
+}
+
+.welcome > div:first-child{
+    width: 65%;
+}
+
+.welcome > div:first-child > p:first-child {
+    text-transform: uppercase;
+    font-size: 2.2em;
+    margin: -2px 0 0 0;
+}
+
+
+
+.welcome > div:first-child a{
+    padding: 15px 12px;
+    border-radius: 5px;
+    background-color: black;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.welcome > div:first-child p + p{
+    margin: 0 0 50px 0;
+    line-height: 25px;
+}
+
+.welcome > div:last-child{
+    width: 25%;
+    margin-left: 8%;
+}
+
+.welcome > div:last-child > p{
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 10px 0 25px 0;
+
+}
+
+
+
+.welcome > div:last-child > ul{
+
+}
+
+.welcome > div > ul li{
+    list-style-image: url("../img/img04.jpg");
+    list-style-position: inside ;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+.welcome > div > ul li a{
+    padding: 10px 0;
+    display: block;
+    color: #000;
+    font-weight: 500;
+}
+
+/* ######################  wellcom section START   ######################## */
+
+footer{
+    background-image: url("../img/img05.jpg");
+    margin-top: 70px;
+    overflow: hidden;
+}
+
+footer > div > ul {
+    padding-top: 50px ;
+    float: left;
+    width: 30%;
+    list-style: none;
+}
+
+footer > div > ul + ul {
+    padding-left: 5%;
+}
+
+footer > div > ul > li {
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+footer > div > ul > li:first-child {
+    margin-bottom: 20px;
+}
+
+footer > div > ul > li a {
+    color: rgba(0,136,0,0.7);
+    text-decoration: none;
+    display: block;
+    padding: 15px 0 ;
+    font-size: 0.7em;
+    border-bottom: 1px solid rgba(0,136,0,0.3);
+}

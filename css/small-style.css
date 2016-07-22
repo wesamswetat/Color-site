@@ -1,0 +1,19 @@
+body{
+    font-size: 14px;
+}
+
+.contener{
+    width: calc(100% - 10%);
+}
+
+
+/* ######################  HEADER START   ######################## */
+
+
+header > div > p{
+    font-size: 3em;
+}
+
+header > div > ul{
+    padding-top: 25px;
+}
